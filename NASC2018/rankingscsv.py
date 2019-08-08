@@ -1,6 +1,6 @@
 import pandas as pd
 
-file = pd.ExcelFile('NASCRankings.xlsx')
+file = pd.ExcelFile('NASCRankings.xlsx') # Source file from NASPA.
 
 seed = pd.read_excel(file, 'seed')
 round1 = pd.read_excel(file, 'Round 1')
